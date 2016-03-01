@@ -1,0 +1,29 @@
+!-CONFIG[1]
+
+
+| 10, 20, 20, 0.5, 1
+
+
+
+
+|- DESC
+| TEST 40: Testing a configuration requiring the building of different structures to win.
+|
+| In order to test this, please build one of each available buildings. Deleting some before winning would be a nice test as well. The game should be complete afterwards. 
+| It's worth noting as well that building more than what is required of a type is allowed and does not halt the game.
+
+|- WATER
+| 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0
+
+|- ELEC
+| 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0
+
+|- COST
+| 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0
+
+|- GOAL
+| 0
+| 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|*****

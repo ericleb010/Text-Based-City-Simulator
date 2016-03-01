@@ -1,0 +1,32 @@
+!-CONFIG[1]
+
+
+| 110, 20, 20, 1, 1
+
+
+
+
+|- DESC
+| TEST 41: Testing a configuration requiring a minimum amount of money left.
+|
+| In order to COMPLETE this level, you must:
+| --- BUILD 4 buildings of type R-LC
+| --- HAVE $50 to spare.
+|
+|(Notice that, because of the distance multiplier, you can't actually have a configuration with one long chain of nodes. Try it!)
+
+|- WATER
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- ELEC
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- COST
+| 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- GOAL
+| 50
+| 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|*****

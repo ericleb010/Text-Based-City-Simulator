@@ -1,0 +1,32 @@
+!-CONFIG[1]
+
+
+| 100, 20, 20, 0.75, 1
+
+
+
+
+|- DESC
+| TEST 42: Testing a configuration requiring a certain pollution amount.
+|
+| In order to COMPLETE this level, you must:
+| --- BUILD 1 building of type R-LC and 1 building of type I-SD.
+| --- POLLUTION should not exceed 50%
+|
+|(Notice that, because of the pollution, you can't build the residential building below the industrial one!)
+
+|- WATER
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- ELEC
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- COST
+| 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0
+
+|- GOAL
+| 0
+| 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0
+| 0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|*****

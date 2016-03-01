@@ -1,0 +1,28 @@
+!-CONFIG[1]
+
+
+| 10, 20, 20, 0.5, 1
+
+
+
+
+|- DESC
+| TEST 39: Testing a configuration requiring the building of a structure to win.
+|
+| In order to test this, please build the available building. The game should be complete afterwards. 
+
+|- WATER
+| 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- ELEC
+| 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- COST
+| 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- GOAL
+| 0
+| 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|*****

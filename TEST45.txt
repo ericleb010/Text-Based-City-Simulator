@@ -1,0 +1,28 @@
+!-CONFIG[1
+
+
+| 100, 20, 20, 0.75, 1
+
+
+
+
+|- DESC
+| TEST 45: Error: bracketing issue when declaring number of levels.
+|
+| You won't see this. Bracketing issue above.
+
+|- WATER
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- ELEC
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- COST
+| 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0
+
+|- GOAL
+| 0
+| 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|*****

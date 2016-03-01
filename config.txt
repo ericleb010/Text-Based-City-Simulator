@@ -1,0 +1,98 @@
+!-CONFIG[3]
+
+LEVEL 1
+
+### InitialCash, InitialWater, InitialElec, PolMultiplier, DistMultiplier
+| 50, 50, 50, 1, 1
+
+|- DESC
+|Welcome to CITYSIM! 
+|Let's start by creating your first building.
+|
+|To create a building, follow this pattern: 
+| >> build <three-letter type> <ID where you want it built>
+|
+|There are other functions available to you. You may review them by typing 'help'.
+|
+|To COMPLETE this level, you must:
+| --- BUILD (1) building of type R-LC
+
+### R-LC, R-MC, R-HC, R-ED, R-IF, R-PK, C-SB, C-LB, C-HB, I-SC, I-SD, I-LC, I-LD
+
+|- WATER
+|    0,   0,    0,    0,    0,    0,    0,   0,    0,   0,   0,    0,    0
+
+|- ELEC
+|    0,   0,    0,    0,    0,    0,    0,   0,    0,   0,   0,    0,    0
+
+|- COST
+|    10,   0,    0,    0,    0,    0,    0,   0,    0,   0,   0,    0,    0
+
+### Cost goal, building goals, pollution goals.
+
+|- GOAL
+| 0
+|    1,     0,    0,    0,    0,    0,     0,   0,    0,    0,    0,    0,    0
+|    0,     0,    0,    0,    0,    0,     0,   0,    0,    0,    0,    0,    0
+
+|************************************************************************************
+
+### InitialCash, InitialWater, InitialElec, PolMultiplier, DistMultiplier
+| 150, 100, 100, 1, 1
+
+|- DESC
+|Well done!
+|There's more to it than that though, of course. People don't always want to be 
+|living in low-income housing. You're going to have to give your citizens more
+|choice!
+|
+|Take notice of your utilities as you buy and create chains of buildings.
+|
+|To COMPLETE this level, you must:
+| --- BUILD (2) building of type R-LC
+| --- BUILD (1) building of type R-MC
+
+### R-LC, R-MC, R-HC, R-ED, R-IF, R-PK, C-SB, C-LB, C-HB, I-SC, I-SD, I-LC, I-LD
+|- WATER
+|    10,   20,    0,    0,    0,    5,    20,   0,    0,    0,   10,    0,     0
+
+|- ELEC
+|    10,   20,    0,    0,    0,    5,    20,   0,    0,    0,   10,    0,     0
+
+|- COST
+|    20,   50,    0,    0,    0,    5,    40,   0,    0,    0,   15,    0,     0
+
+### Cost goal, building goals, pollution goals.
+
+|- GOAL
+| 0
+|    2,     1,    0,    0,    0,    0,     0,   0,    0,    0,    0,    0,    0
+|    0,     0,    0,    0,    0,    0,     0,   0,    0,    0,    0,    0,    0
+
+|************************************************************************************
+
+### InitialCash, InitialWater, InitialElec, PolMultiplier, DistMultiplier
+| 9900, 10000, 10000, 0.5, 1
+
+|- DESC
+|Freedom! Do whatever you'd like, because this game is incomplete.
+
+### R-LC, R-MC, R-HC, R-ED, R-IF, R-PK, C-SB, C-LB, C-HB, I-SC, I-SD, I-LC, I-LD
+|- WATER
+|    10,   20,    50,  100,  130,    0,   20,   50,  130,   10,   10,   30,   30
+
+|- ELEC
+|    10,   20,    50,  100,  200,    5,   20,   80,  350,   15,   15,   50,   30
+
+|- COST
+|    20,   50,   100,  250,  300,    5,   40,   80,  175,   25,   10,  125,   75
+
+### Cost goal, building goals, pollution goals.
+
+|- GOAL
+| 10000
+|    0,     0,    0,    0,    0,    0,     0,   0,    0,    0,    0,    0,    0
+|    0,     0,    0,    0,    0,    0,     0,   0,    0,    0,    0,    0,    0
+
+|************************************************************************************
+

@@ -1,0 +1,28 @@
+!-CONFIG[1]
+
+
+| 10, 20, 20, 0.5, 1
+
+
+
+
+|- DESC
+| TEST 37: Testing a configuration with two building types available, same category.
+|
+| There should be two available buildings now.
+
+|- WATER
+| 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- ELEC
+| 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- COST
+| 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- GOAL
+| 100
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|*****

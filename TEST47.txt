@@ -1,0 +1,28 @@
+!-CONFIG[1]
+
+
+| 100, 20, 20, 0.75, 1
+
+
+
+
+|- DESC
+| TEST 47: Error: rule has a value too many.
+|
+| You won't see this. There's actually an added value in COST (there should be 13).
+
+|- WATER
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- ELEC
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- COST
+| 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0
+
+|- GOAL
+| 0
+| 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|*****

@@ -1,0 +1,54 @@
+!-CONFIG[2]
+
+LEVEL 1
+
+| 0, 20, 20, 0.5, 0.5
+
+
+
+
+|- DESC
+| TEST 35: Testing a two-level configuration.
+|
+| LEVEL 1! This should be an auto-win level, but since there is a level following, a different message appears asking if you wish to continue.
+
+|- WATER
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- ELEC
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- COST
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- GOAL
+| 0
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|*****************************
+LEVEL 2
+
+| 0, 20, 20, 0.5, 0.5
+
+
+
+
+|- DESC
+| This is not auto-win. Notice that the counter above ^^ has moved.
+
+|- WATER
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- ELEC
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- COST
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- GOAL
+| 10
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|*****************************

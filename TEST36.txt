@@ -1,0 +1,31 @@
+!-CONFIG[1]
+
+
+| 10, 20, 20, 0.5, 1
+
+
+
+
+|- DESC
+| TEST 36: Testing a configuration with a building type available.
+|
+| There should be a building that shows up below, with its long-form / short-form name, utility usage, and price.
+| Now you can build stuff! As explained in the help files, the command is "build <type> <parentID>". To remove, it's "remove <ID>"!
+|
+| Notice that the cash available to you decreases as well.
+
+|- WATER
+| 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- ELEC
+| 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- COST
+| 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- GOAL
+| 100
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|*****

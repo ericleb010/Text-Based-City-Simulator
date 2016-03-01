@@ -1,0 +1,26 @@
+!-CONFIG[1]
+
+### This configuration file is to test empty data, i.e., just to test the parsing.
+
+| 0, 20, 20, 0.5, 0.5
+
+|- DESC
+| TEST 32: Testing the parsing of a valid configuration file.
+|
+| There is nothing available to purchase, but it should run.
+
+|- WATER
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- ELEC
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- COST
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- GOAL
+| 10
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|***

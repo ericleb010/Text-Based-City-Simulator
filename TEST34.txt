@@ -1,0 +1,27 @@
+!-CONFIG[1]
+
+| 0, 20, 20, 0.5, 0.5
+
+
+
+
+|- DESC
+| TEST 34: Testing the parsing of an "auto-win" configuration file.
+|
+| A message should display at the bottom informing you that you've completed all levels.
+
+|- WATER
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- ELEC
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- COST
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|- GOAL
+| 0
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+| 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+|***
